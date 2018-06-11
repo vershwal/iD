@@ -29,10 +29,11 @@ describe('iD.svgLayers', function () {
         expect(nodes.length).to.eql(7);
         expect(d3.select(nodes[0]).classed('data-layer-osm')).to.be.true;
         expect(d3.select(nodes[1]).classed('data-layer-gpx')).to.be.true;
-        expect(d3.select(nodes[2]).classed('data-layer-mapillary-images')).to.be.true;
-        expect(d3.select(nodes[3]).classed('data-layer-mapillary-signs')).to.be.true;
-        expect(d3.select(nodes[4]).classed('data-layer-openstreetcam-images')).to.be.true;
-        expect(d3.select(nodes[5]).classed('data-layer-debug')).to.be.true;
+        expect(d3.select(nodes[2]).classed('data-layer-gpx')).to.be.true;
+        expect(d3.select(nodes[3]).classed('data-layer-mapillary-images')).to.be.true;
+        expect(d3.select(nodes[4]).classed('data-layer-mapillary-signs')).to.be.true;
+        expect(d3.select(nodes[5]).classed('data-layer-openstreetcam-images')).to.be.true;
+        expect(d3.select(nodes[6]).classed('data-layer-debug')).to.be.true;
     });
 
 });
