@@ -6642,6 +6642,24 @@
             }
         },
         "imagery": {
+            "AGIV": {
+                "attribution": {
+                    "text": "Orthophoto Flanders most recent © AGIV"
+                },
+                "name": "AGIV Flanders most recent aerial imagery"
+            },
+            "AGIV10cm": {
+                "attribution": {
+                    "text": "Orthophoto Flanders © AGIV"
+                },
+                "name": "AGIV Flanders 2013-2015 aerial imagery 10cm"
+            },
+            "AGIVFlandersGRB": {
+                "attribution": {
+                    "text": "GRB Flanders © AGIV"
+                },
+                "name": "AGIV Flanders GRB"
+            },
             "Bing": {
                 "description": "Satellite and aerial imagery.",
                 "name": "Bing aerial imagery"
@@ -6650,7 +6668,7 @@
                 "attribution": {
                     "text": "Terms & Feedback"
                 },
-                "description": "Premium DigitalGlobe satellite imagery.",
+                "description": "DigitalGlobe-Premium is a mosaic composed of DigitalGlobe basemap with select regions filled with +Vivid or custom area of interest imagery, 50cm resolution or better, and refreshed more frequently with ongoing updates.",
                 "name": "DigitalGlobe Premium Imagery"
             },
             "DigitalGlobe-Premium-vintage": {
@@ -6664,7 +6682,7 @@
                 "attribution": {
                     "text": "Terms & Feedback"
                 },
-                "description": "Standard DigitalGlobe satellite imagery.",
+                "description": "DigitalGlobe-Standard is a curated set of imagery covering 86% of the earth’s landmass, with 30-60cm resolution where available, backfilled by Landsat. Average age is 2.31 years, with some areas updated 2x per year.",
                 "name": "DigitalGlobe Standard Imagery"
             },
             "DigitalGlobe-Standard-vintage": {
@@ -6744,6 +6762,12 @@
                 },
                 "name": "OSM Inspector: Tagging"
             },
+            "SPW_ORTHO_LAST": {
+                "name": "SPW(allonie) most recent aerial imagery"
+            },
+            "SPW_PICC": {
+                "name": "SPW(allonie) PICC numerical imagery"
+            },
             "US-TIGER-Roads-2012": {
                 "name": "TIGER Roads 2012"
             },
@@ -6758,6 +6782,30 @@
             "US_Forest_Service_roads_overlay": {
                 "description": "Highway: Green casing = unclassified. Brown casing = track. Surface: gravel = light brown fill, Asphalt = black, paved = gray, ground =white, concrete = blue, grass = green. Seasonal = white bars",
                 "name": "U.S. Forest Roads Overlay"
+            },
+            "UrbISOrtho2016": {
+                "attribution": {
+                    "text": "Realized by means of Brussels UrbIS®© - Distribution & Copyright CIRB"
+                },
+                "name": "UrbIS-Ortho 2016"
+            },
+            "UrbISOrtho2017": {
+                "attribution": {
+                    "text": "Realized by means of Brussels UrbIS®© - Distribution & Copyright CIRB"
+                },
+                "name": "UrbIS-Ortho 2017"
+            },
+            "UrbisAdmFR": {
+                "attribution": {
+                    "text": "Realized by means of Brussels UrbIS®© - Distribution & Copyright CIRB"
+                },
+                "name": "UrbisAdm FR"
+            },
+            "UrbisAdmNL": {
+                "attribution": {
+                    "text": "Realized by means of Brussels UrbIS®© - Distribution & Copyright CIRB"
+                },
+                "name": "UrbisAdm NL"
             },
             "Waymarked_Trails-Cycling": {
                 "attribution": {
@@ -6841,6 +6889,13 @@
                 },
                 "name": "OpenStreetMap (German Style)"
             },
+            "osmse-ekonomiska": {
+                "attribution": {
+                    "text": "© Lantmäteriet"
+                },
+                "description": "Scan of ´Economic maps´ ca 1950-1980",
+                "name": "Lantmäteriet Economic Map (historic)"
+            },
             "qa_no_address": {
                 "attribution": {
                     "text": "Simon Poole, Data ©OpenStreetMap contributors"
@@ -6870,6 +6925,48 @@
                     "text": "Maps © Thunderforest, Data © OpenStreetMap contributors"
                 },
                 "name": "Thunderforest Landscape"
+            },
+            "trafikverket-baninfo": {
+                "attribution": {
+                    "text": "© Trafikverket, CC0"
+                },
+                "description": "Swedish railway network, including sidings",
+                "name": "Trafikverket Railway Network"
+            },
+            "trafikverket-baninfo-option": {
+                "attribution": {
+                    "text": "© Trafikverket, CC0"
+                },
+                "description": "Swedish railway network with several options for map layers",
+                "name": "Trafikverket Railway Network options"
+            },
+            "trafikverket-vagnat": {
+                "attribution": {
+                    "text": "© Trafikverket, CC0"
+                },
+                "description": "Swedish NVDB road network",
+                "name": "Trafikverket Road Network"
+            },
+            "trafikverket-vagnat-extra": {
+                "attribution": {
+                    "text": "© Trafikverket, CC0"
+                },
+                "description": "Swedish NVDB extra details: Highway reference, traffic calming, rest area, bus stop, bridge, tunnel, speed camera",
+                "name": "Trafikverket Road Network extra"
+            },
+            "trafikverket-vagnat-navn": {
+                "attribution": {
+                    "text": "© Trafikverket, CC0"
+                },
+                "description": "Swedish NVDB street names",
+                "name": "Trafikverket Street Names"
+            },
+            "trafikverket-vagnat-option": {
+                "attribution": {
+                    "text": "© Trafikverket, CC0"
+                },
+                "description": "Swedish NVDB road network with several options for map layers",
+                "name": "Trafikverket Road Network options"
             }
         },
         "community": {
@@ -7028,6 +7125,10 @@
                 "description": "Irregular meeting of the OpenStreetMap community in Chiang Mai",
                 "extendedDescription": "Members of the OpenStreetMap community meet every few months in Chiang Mai. Get in contact and check out {url} to see when the next meetup is scheduled"
             },
+            "OSM-TH-facebook": {
+                "name": "OpenStreetMap TH Facebook group",
+                "description": "Facebook group for OpenStreetMappers in Thailand"
+            },
             "OSM-TH-forum": {
                 "name": "OpenStreetMap TH forum",
                 "description": "OpenStreetMap Thailand web forum"
@@ -7109,8 +7210,32 @@
                 "name": "OpenStreetMap Belgium Twitter",
                 "description": "OSM Belgium on Twitter: @osm_be"
             },
+            "hr-facebook": {
+                "name": "OpenStreetMap Croatia Facebook group",
+                "description": "OpenStreetMap Croatia Facebook group"
+            },
+            "hr-irc": {
+                "name": "OpenStreetMap Croatia on IRC",
+                "description": "Join #osm-hr on irc.freenode.org (port 6667)"
+            },
+            "hr-mailinglist": {
+                "name": "Talk-hr Mailing List",
+                "description": "Talk-hr mailing list"
+            },
+            "czech-community": {
+                "name": "Czech OSM community",
+                "description": "Map portal, website and contacts on OSM members in Czechia"
+            },
+            "osmcz-facebook": {
+                "name": "OpenStreetMap CZ on Facebook",
+                "description": "Follow czech community on Facebook - including translated WeeklyOSM!"
+            },
+            "osmcz-twitter": {
+                "name": "Czech twitter @osmcz",
+                "description": "Follow czech community on Twitter - including translated WeeklyOSM!"
+            },
             "talk-cz-mailinglist": {
-                "name": "Talk-cz Mailing List",
+                "name": "Czech mailing list (talk-cz)",
                 "description": "Talk-cz is the official mailing list for Czech community"
             },
             "dk-forum": {
@@ -7189,6 +7314,10 @@
                 "name": "OWL Mailing List",
                 "description": "This is the mailing list for the Ostwestfalen-Lippe OSM community"
             },
+            "de-telegram": {
+                "name": "OpenStreetMap Germany Telegram",
+                "description": "Join the OpenStreetMap Germany Telegram supergroup at {url}"
+            },
             "osm-de": {
                 "name": "OpenStreetMap Germany",
                 "description": "The platform for information on OpenStreetMap in Germany"
@@ -7262,6 +7391,14 @@
             "OSM-PL-forum": {
                 "name": "OpenStreetMap Poland Forum",
                 "description": "Forum of Polish OpenStreetMap community"
+            },
+            "si-forum": {
+                "name": "OpenStreetMap Slovenia Forum",
+                "description": "Forum of OpenStreetMap community in Slovenia"
+            },
+            "si-mailinglist": {
+                "name": "OpenStreetMap Slovenia mailing list",
+                "description": "Mailing list of OpenStreetMap community in Slovenia"
             },
             "OSM-ES-mailinglist": {
                 "name": "Talk-es mailing list",
@@ -7427,7 +7564,14 @@
             "OSM-US": {
                 "name": "OpenStreetMap US",
                 "description": "We help grow and improve OpenStreetMap in the United States.",
-                "extendedDescription": "We support OpenStreetMap by holding annual conferences, providing community resources, building partnerships, and by spreading the word. Join OpenStreetMap US here: {signupUrl}"
+                "extendedDescription": "We support OpenStreetMap by holding annual conferences, providing community resources, building partnerships, and by spreading the word. Join OpenStreetMap US here: {signupUrl}",
+                "events": {
+                    "sotmus2018": {
+                        "name": "State of the Map US 2018",
+                        "description": "Join the OpenStreetMap community at State of the Map US in Detroit, Michigan. Connect with other mappers, businesses, government agencies, and non profits, all collaborating around the free and editable map of the world.",
+                        "where": "Detroit, Michigan"
+                    }
+                }
             },
             "OSM-Utah": {
                 "name": "OpenStreetMap Utah",
@@ -7610,6 +7754,10 @@
             "OSM-Reddit": {
                 "name": "OpenStreetMap on Reddit",
                 "description": "/r/openstreetmap/ is a great place to learn more about OpenStreetMap.  Ask us anything!"
+            },
+            "OSM-Telegram": {
+                "name": "OpenStreetMap Telegram",
+                "description": "Join the OpenStreetMap Telegram global supergroup at {url}"
             },
             "OSM-Twitter": {
                 "name": "OpenStreetMap Twitter",
